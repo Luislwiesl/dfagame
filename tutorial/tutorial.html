@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title class="title">Document</title>
+    <link rel="stylesheet" href="../../style.css">
+
+</head>
+<body>
+
+    <h1 id="automat">Tutorial</h1>
+    <button id="startPageButton" class="small-btn success" target="_self" onclick="window.open('../../startPage.html', '_self')">Startseite</button>
+    <button id="declarationPageButton" class="small-btn success" target="_self" onclick="window.open('../../declaration/declaration.html', '_self')">Erklärung</button>
+    <button id="gamePageButton" class="small-btn success" target="_self" onclick="window.open('../../game/game.html', '_self')">Game</button>
+    <div id="thisModus" style="display: block;">
+        <div id="image" style="margin: 10;"></div>
+        <div id="inputDiv" class="box">
+            <table id="table", border=1></table>
+            <div class="message-box">Äquivalente Zustände:</div>
+            <div id=merging class="form-inline" style="margin: 10;">
+                <input id=mergedStates1 placeholder="q_-q_" class="merge-input">
+                <input id=mergedStates2 placeholder="q_-q_" class="merge-input">
+                <input id=mergedStates3 placeholder="q_-q_" class="merge-input">
+                <input id=mergedStates4 placeholder="q_-q_" class="merge-input">
+                <input id=mergedStates5 placeholder="q_-q_" class="merge-input">
+            </div>
+            <button id="nextExampleButton" class="small-btn success" style="display: none;">Nächstes Beispiel</button>
+        </div>
+        <div id="declarationField" class="box last-child">
+            <article id="decl1" class="message-article" style="display: block;">
+                Die Graphik zeigt einen deterministischen endlichen Automaten (DEA). Alle Zustände sind erreichbar. <br>
+                Die Felder der Tabelle stehen für jedes Zustandspaar. Du möchtest jetzt herausfinden welche Zustände äquivalent sind. <br>
+                Markiere zuerst alle Felder, bei denen der eine Zustand ein Endzustand ist und der andere nicht. <br>
+                Diese Paare können nicht gleich sein. Wird das Feld nicht markiert, lasse es leer. <br>
+                <br>
+                Mit ENTER kommst du zum nächsten Feld. Ist das nicht möglich, ist deine Eingabe falsch.
+            </article>
+            <article id="decl2" class="message-article" style="display: none;">
+                Markiere jetzt alle Felder, bei denen der Übergang mit einem Buchstaben zu einem bereits markierten Zustandspaar führt. <br>
+                Ist das nicht der Fall, lasse das Feld frei. Wiederhole das so oft bis sich die Tabelle nicht mehr verändert. <br>
+            </article>
+            <article id="decl3" class="message-article" style="display: none;">
+                Die Zustandspaare, bei denen das Feld noch nicht markiert ist sind äquivalent. <br>
+                Zustände können auch mehrfach äquivalent sein. Das erkennst du daran, dass in einer Zeile oder Spalte mehrere Felder leer geblieben sind. <br>
+                <br>
+                Trage die äquivalenten Zustände jetzt ein.
+            </article>
+            <article id="decl4" class="message-article" style="display: none;">
+                Sehr gut! Hier siehst du den Minimalautomaten. <br>
+                Versuchen wir es mal mit einer schwierigeren Aufgabe!
+            </article>
+        </div>
+    </div>
+    <div id="afterLastLevel" style="display: none;">
+        <article class="message-article">
+            Du hast alle Schwierigkeitsstufen durchgespielt. Versuche es jetzt ohne Hilfe im Game
+        </article>
+    </div>
+
+
+    <script src="./tutorialPage.js" type="module"></script>
+</body>
+</html>
