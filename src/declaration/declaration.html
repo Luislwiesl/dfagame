@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title class="title">Document</title>
+    <link rel="stylesheet" href="../../style.css">
+
+</head>
+<body>
+
+    <h1 id="automat">Erklärung des Algorithmus</h1>
+
+    <button id="startPageButton" class="small-btn success" target="_self" onclick="window.open('../../startPage.html', '_self')">Startseite</button>
+    <button id="tutorialPageButton" class="small-btn success" target="_self" onclick="window.open('../../tutorial/tutorial.html', '_self')">Tutorial</button>
+    <button id="gamePageButton" class="small-btn success" target="_self" onclick="window.open('../../game/game.html', '_self')">Game</button>
+    <div id="thisModus" style="display: block;">
+        <div id="image"></div>
+        <div class="box">
+            <table class="table" id="table"></table>
+
+            <div id=rightMerging style="display: none">
+                <div class="message-box" >Äquivalente Zustände:</div>
+                <div class="form-inline">
+                    <div id=mergedStatesText1 class="message-box-merge" style="display: none"></div>
+                    <div id=mergedStatesText2 class="message-box-merge" style="display: none"></div>
+                    <div id=mergedStatesText3 class="message-box-merge" style="display: none"></div>
+                    <div id=mergedStatesText4 class="message-box-merge" style="display: none"></div>
+                    <div id=mergedStatesText5 class="message-box-merge" style="display: none"></div>
+                </div>
+            </div>
+
+            <button id="goOnButton" class="small-btn success" style="display: block">Weiter</button>
+            <button id="nextExampleButton" class="small-btn success" style="display: none;">Nächstes Beispiel</button>
+            <script src="./declarationPage.js" type="module"></script>
+        </div>
+        <div id="declarationField" class="box last-child" style="display: inline-block;">
+            <article id="decl1" class="message-article" style="display: block;">
+                Die Graphik zeigt einen deterministischen endlichen Automaten (DEA). Alle Zustände sind erreichbar. <br>
+                Die Felder der Tabelle stehen für jedes Zustandspaar. Du möchtest jetzt herausfinden welche Zustände äquivalent sind. <br>
+                <br>
+                Zuerst werden alle Felder markiert, bei denen der eine Zustand ein Endzustand ist und der andere nicht. <br>
+                Diese Paare können nicht gleich sein. <br>
+                Wird das Feld nicht markiert bleibt es leer. Mit ENTER kommst du zum nächsten Feld. <br>
+            </article>
+            <article id="decl2" class="message-article" style="display: none;">
+                Jetzt werden alle Felder markiert, bei denen der Übergang mit einem Buchstaben zu einem bereits markierten Zustandspaar führt. <br>
+                Ist das nicht der Fall, bleibt das Feld frei. Das wird so oft wiederholt bis sich die Tabelle nicht mehr verändert. <br>
+            </article>
+            <article id="decl3" class="message-article" style="display: none;">
+                Prüfe, ob die Tabelle sich noch einmal verändert. <br>
+                Wenn nicht, bilden die freien Felder die Äquivalenten Zustände. <br>
+                Die Zustandspaare, bei denen das Feld noch nicht markiert ist sind äquivalent. <br>
+                Zustände können auch mehrfach äquivalent sein. Das erkennst du daran, dass in einer Zeile oder Spalte mehrere Felder leer geblieben sind. <br>
+                Die äquivalenten Zustände werden jetzt eingetragen.
+            </article>
+            <article id="decl4" class="message-article" style="display: none;">
+                Hier siehst du den Minimalautomaten. Versuchen wir es mal mit einer schwierigeren Aufgabe!
+            </article>
+        </div>
+    </div>
+    <div id="afterLastLevel" style="display: none;">
+        <article class="message-article">
+            Du hast alle Schwierigkeitsstufen angesehen. Versuche es jetzt selbst im Tutorial-Modus
+        </article>
+    </div>
+</body>
+</html>

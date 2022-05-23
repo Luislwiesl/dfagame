@@ -1,0 +1,139 @@
+{
+    "temporary_transitions": [],
+    "dfa": {
+        "initial state": 2,
+        "final states": "[1]",
+        "alphabet": "[a, b]",
+        "transitions": [
+            {
+                "character": "a",
+                "from": 0,
+                "to": 1
+            },
+            {
+                "character": "b",
+                "from": 0,
+                "to": 0
+            },
+            {
+                "character": "a",
+                "from": 1,
+                "to": 3
+            },
+            {
+                "character": "b",
+                "from": 1,
+                "to": 4
+            },
+            {
+                "character": "a",
+                "from": 2,
+                "to": 6
+            },
+            {
+                "character": "b",
+                "from": 2,
+                "to": 0
+            },
+            {
+                "character": "a",
+                "from": 3,
+                "to": 0
+            },
+            {
+                "character": "b",
+                "from": 3,
+                "to": 0
+            },
+            {
+                "character": "a",
+                "from": 4,
+                "to": 0
+            },
+            {
+                "character": "b",
+                "from": 4,
+                "to": 0
+            },
+            {
+                "character": "a",
+                "from": 5,
+                "to": 0
+            },
+            {
+                "character": "b",
+                "from": 5,
+                "to": 0
+            },
+            {
+                "character": "a",
+                "from": 6,
+                "to": 5
+            },
+            {
+                "character": "b",
+                "from": 6,
+                "to": 0
+            }
+        ],
+        "states": "[0, 1, 2, 3, 4, 5, 6]"
+    },
+    "minimal_dfa": {
+        "initial state": 2,
+        "final states": "[1]",
+        "alphabet": "[a, b]",
+        "transitions": [
+            {
+                "character": "a",
+                "from": 0,
+                "to": 1
+            },
+            {
+                "character": "b",
+                "from": 0,
+                "to": 0
+            },
+            {
+                "character": "a",
+                "from": 1,
+                "to": 4
+            },
+            {
+                "character": "b",
+                "from": 1,
+                "to": 4
+            },
+            {
+                "character": "a",
+                "from": 2,
+                "to": 6
+            },
+            {
+                "character": "b",
+                "from": 2,
+                "to": 0
+            },
+            {
+                "character": "a",
+                "from": 4,
+                "to": 0
+            },
+            {
+                "character": "b",
+                "from": 4,
+                "to": 0
+            },
+            {
+                "character": "a",
+                "from": 6,
+                "to": 4
+            },
+            {
+                "character": "b",
+                "from": 6,
+                "to": 0
+            }
+        ],
+        "states": "[0, 1, 2, 4, 6]"
+    }
+}

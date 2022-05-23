@@ -1,0 +1,77 @@
+<svg width="255px" height="212px"
+ viewBox="0.00 0.00 255.39 211.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0.0) translate(4.0 207.6)">
+<title>Minimaler DFA</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-207.6 251.39,-207.6 251.39,4 -4,4"/>
+<!-- q0q3 -->
+<g id="node1" class="node">
+<title>q0q3</title>
+<ellipse fill="none" stroke="black" cx="28.6" cy="-88" rx="28.7" ry="28.7"/>
+<text text-anchor="middle" x="28.6" y="-84.3" font-family="Times,serif" font-size="14.00">q0q3</text>
+</g>
+<!-- q0q3&#45;&gt;q0q3 -->
+<g id="edge1" class="edge">
+<title>q0q3&#45;&gt;q0q3</title>
+<path fill="none" stroke="black" d="M19.26,-115.28C18.84,-125.83 21.96,-134.6 28.6,-134.6 32.85,-134.6 35.66,-131 37.02,-125.64"/>
+<polygon fill="black" stroke="black" points="40.54,-125.55 37.94,-115.28 33.57,-124.93 40.54,-125.55"/>
+<text text-anchor="middle" x="28.6" y="-138.4" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- q1q4 -->
+<g id="node2" class="node">
+<title>q1q4</title>
+<ellipse fill="none" stroke="black" cx="132.79" cy="-138" rx="28.68" ry="28.68"/>
+<ellipse fill="none" stroke="black" cx="132.79" cy="-138" rx="32.7" ry="32.7"/>
+<text text-anchor="middle" x="132.79" y="-134.3" font-family="Times,serif" font-size="14.00">q1q4</text>
+</g>
+<!-- q0q3&#45;&gt;q1q4 -->
+<g id="edge2" class="edge">
+<title>q0q3&#45;&gt;q1q4</title>
+<path fill="none" stroke="black" d="M54.6,-100.23C66.39,-106 80.72,-113.01 93.81,-119.42"/>
+<polygon fill="black" stroke="black" points="92.55,-122.7 103.07,-123.95 95.63,-116.41 92.55,-122.7"/>
+<text text-anchor="middle" x="78.69" y="-116.8" font-family="Times,serif" font-size="14.00">b</text>
+</g>
+<!-- q1q4&#45;&gt;q1q4 -->
+<g id="edge4" class="edge">
+<title>q1q4&#45;&gt;q1q4</title>
+<path fill="none" stroke="black" d="M122.67,-169.13C122.56,-179.9 125.94,-188.6 132.79,-188.6 137.29,-188.6 140.29,-184.85 141.79,-179.23"/>
+<polygon fill="black" stroke="black" points="145.29,-179.45 142.91,-169.13 138.33,-178.68 145.29,-179.45"/>
+<text text-anchor="middle" x="132.79" y="-192.4" font-family="Times,serif" font-size="14.00">b</text>
+</g>
+<!-- q2 -->
+<g id="node3" class="node">
+<title>q2</title>
+<ellipse fill="none" stroke="black" cx="227.89" cy="-88" rx="19.5" ry="19.5"/>
+<text text-anchor="middle" x="227.89" y="-84.3" font-family="Times,serif" font-size="14.00">q2</text>
+</g>
+<!-- q1q4&#45;&gt;q2 -->
+<g id="edge3" class="edge">
+<title>q1q4&#45;&gt;q2</title>
+<path fill="none" stroke="black" d="M164.76,-131.37C173.38,-128.83 182.53,-125.43 190.39,-121 196.15,-117.75 201.77,-113.45 206.8,-109.03"/>
+<polygon fill="black" stroke="black" points="209.27,-111.51 214.16,-102.11 204.47,-106.41 209.27,-111.51"/>
+<text text-anchor="middle" x="186.89" y="-126.8" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- q2&#45;&gt;q0q3 -->
+<g id="edge6" class="edge">
+<title>q2&#45;&gt;q0q3</title>
+<path fill="none" stroke="black" d="M208.37,-85.34C196.18,-83.72 179.87,-81.82 165.39,-81 136.46,-79.36 129.14,-79.57 100.19,-81 89.49,-81.53 77.91,-82.51 67.28,-83.57"/>
+<polygon fill="black" stroke="black" points="66.62,-80.12 57.04,-84.64 67.35,-87.08 66.62,-80.12"/>
+<text text-anchor="middle" x="132.79" y="-84.8" font-family="Times,serif" font-size="14.00">b</text>
+</g>
+<!-- q2&#45;&gt;q1q4 -->
+<g id="edge5" class="edge">
+<title>q2&#45;&gt;q1q4</title>
+<path fill="none" stroke="black" d="M208.6,-92.49C200.63,-94.8 191.31,-97.98 183.39,-102 177.79,-104.84 172.13,-108.29 166.74,-111.91"/>
+<polygon fill="black" stroke="black" points="164.7,-109.07 158.54,-117.69 168.73,-114.79 164.7,-109.07"/>
+<text text-anchor="middle" x="186.89" y="-105.8" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<g id="node4" class="node">
+<title></title>
+</g>
+<!-- &#45;&gt;q2 -->
+<g id="edge7" class="edge">
+<title>&#45;&gt;q2</title>
+<path fill="none" stroke="red" d="M160,-35.93C169.66,-42.69 180.63,-50.56 190.39,-58 195.04,-61.54 199.92,-65.44 204.56,-69.22"/>
+<polygon fill="red" stroke="red" points="202.58,-72.12 212.52,-75.78 207.03,-66.72 202.58,-72.12"/>
+</g>
+</g>
+</svg>

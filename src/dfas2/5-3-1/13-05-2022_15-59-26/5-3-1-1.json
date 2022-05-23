@@ -1,0 +1,99 @@
+{
+    "temporary_transitions": [],
+    "dfa": {
+        "initial state": 2,
+        "final states": "[1, 4]",
+        "alphabet": "[a, b]",
+        "transitions": [
+            {
+                "character": "a",
+                "from": 0,
+                "to": 3
+            },
+            {
+                "character": "b",
+                "from": 0,
+                "to": 1
+            },
+            {
+                "character": "a",
+                "from": 1,
+                "to": 2
+            },
+            {
+                "character": "b",
+                "from": 1,
+                "to": 4
+            },
+            {
+                "character": "a",
+                "from": 2,
+                "to": 1
+            },
+            {
+                "character": "b",
+                "from": 2,
+                "to": 3
+            },
+            {
+                "character": "a",
+                "from": 3,
+                "to": 0
+            },
+            {
+                "character": "b",
+                "from": 3,
+                "to": 1
+            },
+            {
+                "character": "a",
+                "from": 4,
+                "to": 2
+            },
+            {
+                "character": "b",
+                "from": 4,
+                "to": 1
+            }
+        ],
+        "states": "[0, 1, 2, 3, 4]"
+    },
+    "minimal_dfa": {
+        "initial state": 2,
+        "final states": "[4]",
+        "alphabet": "[a, b]",
+        "transitions": [
+            {
+                "character": "a",
+                "from": 0,
+                "to": 0
+            },
+            {
+                "character": "b",
+                "from": 0,
+                "to": 4
+            },
+            {
+                "character": "a",
+                "from": 2,
+                "to": 4
+            },
+            {
+                "character": "b",
+                "from": 2,
+                "to": 0
+            },
+            {
+                "character": "a",
+                "from": 4,
+                "to": 2
+            },
+            {
+                "character": "b",
+                "from": 4,
+                "to": 4
+            }
+        ],
+        "states": "[0, 2, 4]"
+    }
+}

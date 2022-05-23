@@ -1,0 +1,77 @@
+<svg width="346px" height="131px"
+ viewBox="0.00 0.00 346.39 131.19" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0.0) translate(4.0 127.19)">
+<title>Minimaler DFA</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-127.19 342.39,-127.19 342.39,4 -4,4"/>
+<!-- q0q2 -->
+<g id="node1" class="node">
+<title>q0q2</title>
+<ellipse fill="none" stroke="black" cx="309.79" cy="-28.6" rx="28.7" ry="28.7"/>
+<text text-anchor="middle" x="309.79" y="-24.9" font-family="Times,serif" font-size="14.00">q0q2</text>
+</g>
+<!-- q0q2&#45;&gt;q0q2 -->
+<g id="edge1" class="edge">
+<title>q0q2&#45;&gt;q0q2</title>
+<path fill="none" stroke="black" d="M305.1,-57.26C305.05,-67.18 306.62,-75.19 309.79,-75.19 311.77,-75.19 313.13,-72.07 313.85,-67.3"/>
+<polygon fill="black" stroke="black" points="317.35,-67.46 314.48,-57.26 310.36,-67.03 317.35,-67.46"/>
+<text text-anchor="middle" x="309.79" y="-78.99" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- q0q2&#45;&gt;q0q2 -->
+<g id="edge2" class="edge">
+<title>q0q2&#45;&gt;q0q2</title>
+<path fill="none" stroke="black" d="M301.28,-56.15C298.8,-74.87 301.63,-93.19 309.79,-93.19 316.41,-93.19 319.53,-81.1 319.13,-66.52"/>
+<polygon fill="black" stroke="black" points="322.59,-65.83 318.29,-56.15 315.61,-66.4 322.59,-65.83"/>
+<text text-anchor="middle" x="309.79" y="-96.99" font-family="Times,serif" font-size="14.00">b</text>
+</g>
+<g id="node2" class="node">
+<title></title>
+</g>
+<!-- q1q3 -->
+<g id="node3" class="node">
+<title>q1q3</title>
+<ellipse fill="none" stroke="black" cx="119.6" cy="-28.6" rx="28.7" ry="28.7"/>
+<text text-anchor="middle" x="119.6" y="-24.9" font-family="Times,serif" font-size="14.00">q1q3</text>
+</g>
+<!-- &#45;&gt;q1q3 -->
+<g id="edge3" class="edge">
+<title>&#45;&gt;q1q3</title>
+<path fill="none" stroke="red" d="M54.2,-28.6C62.47,-28.6 71.77,-28.6 80.68,-28.6"/>
+<polygon fill="red" stroke="red" points="80.87,-32.1 90.87,-28.6 80.87,-25.1 80.87,-32.1"/>
+</g>
+<!-- q1q3&#45;&gt;q1q3 -->
+<g id="edge5" class="edge">
+<title>q1q3&#45;&gt;q1q3</title>
+<path fill="none" stroke="black" d="M111.01,-55.88C110.62,-66.43 113.49,-75.19 119.6,-75.19 123.51,-75.19 126.09,-71.6 127.34,-66.24"/>
+<polygon fill="black" stroke="black" points="130.86,-66.13 128.19,-55.88 123.89,-65.56 130.86,-66.13"/>
+<text text-anchor="middle" x="119.6" y="-78.99" font-family="Times,serif" font-size="14.00">b</text>
+</g>
+<!-- q4 -->
+<g id="node4" class="node">
+<title>q4</title>
+<ellipse fill="none" stroke="black" cx="214.69" cy="-28.6" rx="19.5" ry="19.5"/>
+<ellipse fill="none" stroke="black" cx="214.69" cy="-28.6" rx="23.5" ry="23.5"/>
+<text text-anchor="middle" x="214.69" y="-24.9" font-family="Times,serif" font-size="14.00">q4</text>
+</g>
+<!-- q1q3&#45;&gt;q4 -->
+<g id="edge4" class="edge">
+<title>q1q3&#45;&gt;q4</title>
+<path fill="none" stroke="black" d="M148.28,-28.6C158.49,-28.6 170.16,-28.6 180.78,-28.6"/>
+<polygon fill="black" stroke="black" points="180.97,-32.1 190.97,-28.6 180.97,-25.1 180.97,-32.1"/>
+<text text-anchor="middle" x="169.69" y="-32.4" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- q4&#45;&gt;q0q2 -->
+<g id="edge6" class="edge">
+<title>q4&#45;&gt;q0q2</title>
+<path fill="none" stroke="black" d="M238.23,-28.6C248.02,-28.6 259.75,-28.6 270.82,-28.6"/>
+<polygon fill="black" stroke="black" points="271.14,-32.1 281.14,-28.6 271.14,-25.1 271.14,-32.1"/>
+<text text-anchor="middle" x="259.69" y="-32.4" font-family="Times,serif" font-size="14.00">a</text>
+</g>
+<!-- q4&#45;&gt;q4 -->
+<g id="edge7" class="edge">
+<title>q4&#45;&gt;q4</title>
+<path fill="none" stroke="black" d="M206.61,-50.8C205.72,-61.1 208.42,-70.1 214.69,-70.1 218.71,-70.1 221.26,-66.4 222.34,-61.04"/>
+<polygon fill="black" stroke="black" points="225.85,-60.94 222.78,-50.8 218.86,-60.64 225.85,-60.94"/>
+<text text-anchor="middle" x="214.69" y="-73.9" font-family="Times,serif" font-size="14.00">b</text>
+</g>
+</g>
+</svg>
